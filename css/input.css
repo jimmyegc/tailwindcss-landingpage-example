@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-chingon: crimson;
+  --color-principal-pagina: #121416;
+  --color-button: #DCE8F3;
+  --color-borde-pagina: #2c3135;
+
+  --breakpoint-md: 52rem;
+  --breakpoint-jimmy: 50rem;
+}
+
+:root {
+  --jimmy: blue;
+  --icono-menu-abierto: url('../img/menu.svg');
+  --icono-menu-cerrado: url('../img/close.svg');
+}
