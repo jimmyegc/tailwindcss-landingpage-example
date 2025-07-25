@@ -1,10 +1,16 @@
 @import "tailwindcss";
 
 @theme {
+
+  --font-inter: "Inter", sans-serif;
+
   --color-chingon: crimson;
   --color-principal-pagina: #121416;
   --color-button: #DCE8F3;
   --color-borde-pagina: #2c3135;
+  
+  --color-secundario-pagina: #1e2124;
+  --color-textos-card: #929ba2;
 
   --breakpoint-md: 52rem;
   --breakpoint-jimmy: 50rem;
@@ -14,4 +20,5 @@
   --jimmy: blue;
   --icono-menu-abierto: url('../img/menu.svg');
   --icono-menu-cerrado: url('../img/close.svg');
+  --hero-image: linear-gradient(#000000c5, #000000d8), url('../img/bg.jpg');
 }

@@ -4,9 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+
 </head>
-<body class="bg-principal-pagina">
+<body class="bg-principal-pagina font-inter">
 
   <nav class="py-8 border-b-2 border-borde-pagina">
 
@@ -53,8 +57,81 @@
     </div>
   </nav>
 
-  <br>
-  <div class="bg-blue-500">
+  <section class="bg-(image:--hero-image) bg-center bg-cover text-white p-8 my-15 w-9/10 mx-auto rounded-3xl min-h-150
+    flex flex-col gap-4 justify-center items-center text-center
+    md:text-left md:justify-end md:items-start md:pb-20
+  ">
+    <h1 class="text-4xl font-bold md:text-5xl">Domina CSS desde Cero a Héroe</h1>
+    <p class="md:max-w-2/3">Aprende CSS desde los conceptos básicos hasta tecnicas avanzadas con nuestro curso completo.
+      Construye proyectos del mundo real y adquiere las habilidades para crear diseños web impresionantes.
+    </p>
+    <a 
+      class="bg-button text-principal-pagina py-4 px-6 rounded-full font-bold"
+      href="#">Inscribete ahora</a>
+  </section>
+
+  <section class="w-9/10 mx-auto py-15 text-white">
+
+    <h2 class="text-3xl sm:text-4xl font-bold mb-4">Lo Que Aprenderás</h2>
+    <p >Nuestro curso de CSS cubre todo lo que necesitas saber para convertirte en un diseñador web competente.</p>
+
+    <div class="mt-10 flex flex-wrap justify-center md:justify-between gap-10">
+
+      <article class="border border-borde-pagina bg-secundario-pagina 
+      w-full max-w-70 rounded-xl p-8 space-y-4">
+        <img src="./img/code.svg" class="w-8">
+        <h3 class="text-xl font-bold"> Fundamentos de CSS</h3>
+        <p class="font-light text-textos-card">Comprende los conceptos centrales de CSS, incluyendo selectores, propiedades y valores.</p>
+      </article>
+
+      <article class="border border-borde-pagina bg-secundario-pagina 
+      w-full max-w-70 rounded-xl p-8 space-y-4">
+        <img src="./img/paint.svg" class="w-8">
+        <h3 class="text-xl font-bold">Diseño Responsivo</h3>
+        <p class="font-light text-textos-card">Crea sitios web que se adapten a diferentes tamaños de pantalla y dispositivos.</p>
+      </article>
+
+      <article class="border border-borde-pagina bg-secundario-pagina 
+      w-full max-w-70 rounded-xl p-8 space-y-4">
+        <img src="./img/formula.svg" class="w-8">
+        <h3 class="text-xl font-bold">Técnicas Avanzadas</h3>
+        <p class="font-light text-textos-card">Explora caracteristicas avanzadas de CSS como animaciones, transiciones y flexbox.</p>
+      </article>
+
+      <article class="border border-borde-pagina bg-secundario-pagina 
+      w-full max-w-70 rounded-xl p-8 space-y-4"s>
+        <img src="./img/project.svg" class="w-8">
+        <h3 class="text-xl font-bold">Aprendizaje Basado en Proyectos</h3>
+        <p class="font-light text-textos-card">Aplica tus conocimientos construyendo proyectos del mundo real y piezas de portfalio.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <footer class="border-t border-borde-pagina py-15">
+    <div class="w-9/10 mx-auto text-textos-card">
+      <nav>
+        <ul class="flex flex-wrap gap-8 justify-evenly
+        **:hover:underline
+        ">
+          <li>
+            <a href="#">Politica de Privacidad</a>
+          </li>
+          <li>
+            <a href="#">Términos de servicio</a>
+          </li>
+          <li>
+            <a href="#">Contactanos</a>
+          </li>
+        </ul>        
+      </nav>
+
+      <p class="text-center mt-10">&copy;Lorem Ipsum. Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  
+  <!-- <div class="bg-blue-500">
     hello
     <img src="img/menu.svg" alt="">
   </div>  
@@ -69,6 +146,7 @@
   <p class="bg-chingon/70">70</p>
   <p class="bg-chingon/80">80</p>
   <p class="bg-chingon/90">90</p>
-  <p class="bg-chingon/100">100</p>
+  <p class="bg-chingon/100">100</p> -->
+
 </body>
 </html>
